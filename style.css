@@ -1,0 +1,247 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 3px;
+}
+
+body,html{
+	height: auto;
+	min-height: 100%;
+	width: 100%;
+}
+
+.header-wrapper{
+	
+	height: 800px;
+	background: url(image/image.png) no-repeat;
+	background-size: 100% 100%;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 800px;
+	background: rgba(0,0,0,.5)
+}
+.nav-wrapper{
+	position: relative;
+	z-index: 1;
+	display: -webkit-flex;
+	display: flex;
+	justify-content:-webkit-space-between;
+	justify-content:space-between;
+	padding: 54px 110px 0;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+}
+.nav-wrapper span{
+	color: #adaeb0;
+}
+.nav-wrapper span.active{
+	color: #fff;
+}
+.nav-middle ul{
+	list-style:none;
+}
+.nav-middle ul li{
+	float: left;
+	margin-left: 28px;
+}
+.nav-middle ul li:first-child{
+	margin-left: 0;
+}
+.nav-icon{
+	display: inline-block;
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-left: 30px;
+	background-size: 100% 100%;
+	vertical-align: middle;
+}
+.icon-facebook{
+	margin-left: 0;
+	background: url(img/Facebook.png) no-repeat;
+}
+.icon-twitter{
+	background: url(img/Twitter.png) no-repeat;
+}
+.icon-instagram{
+	background: url(img/Instagram.png) no-repeat;
+}
+
+.main-wrapper{
+	position: relative;
+	z-index: 1;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content:space-between;
+	justify-content:space-between;
+	-webkit-align-items:center;
+	align-items:center;
+	margin-top: 227px;
+	padding: 0 110px;
+
+}
+.left-arrow,.right-arrow{
+	display: block;
+	width: 72px;
+	height: 72px;
+	background-size: 100% 100%;
+}
+.main-content{
+	text-align: center;
+}
+.logo{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background: url(img/Baikal.png) no-repeat;
+	background-size: 100% 100%;
+}
+.main-text{
+	margin-top: 23px;
+	color: #fff;
+	font-size: 52px;
+	font-weight: bold;
+	text-align: center;
+}
+.main-sub-text{
+	margin-top: 26px;
+	color: rgba(255,255,255,.7);
+	line-height: 26px;
+	font-family: 'PT Serif';
+	font-size: 20px;
+}
+.left-arrow{
+	background: url(img/LeftArrow.png) no-repeat;
+}
+.right-arrow{
+	background: url(img/RightArrow.png) no-repeat;
+}
+
+.input-wrapper{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content:space-between;
+	justify-content:space-between;
+	-webkit-align-items:center;
+	align-items:center;
+	padding: 0 110px;
+	max-width: 100%;
+	height: 165px;
+	background: #3b3d40;
+}
+
+.email,.select-overlay{
+	padding:0 19px;
+	height: 45px;
+  	color: #fff;
+	background: rgba(255, 255, 255,.15);
+	border: none;
+	border-radius: 3px;
+	font-size: 10px;
+}
+.email{
+	width: 250px;
+}
+.select-overlay{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content:space-between;
+	justify-content:space-between;
+	-webkit-align-items:center;
+	align-items:center;
+	width: 525px;
+	line-height: 45px;
+}
+
+.icon-dropdown{
+	width: 10px;
+	height: 7px;
+	background: url(img/DownArrow.png) no-repeat;
+	background-size: 100% 100%;
+
+}
+.select-hide{
+	display: none;
+}
+.start-btn{
+	width: 165px;
+	height: 45px;
+	line-height: 45px;
+	background: #2e71f2;
+	color: #fff;
+	border: none;
+	border-radius: 25px;
+}
+
+.body-wrapper{
+	padding: 110px 110px 93px 110px;
+	background: #f9f9f9;
+	text-align: center;
+}
+
+.icon-heart{
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background: url(img/Icon.png) no-repeat;
+	background-size: 100% 100%;
+}
+.body-title{
+	margin-top: 30px;
+	font-size: 52px;
+	font-weight: bold;
+}
+.body-text{
+	margin-top: 30px;
+	color: #656b6f;
+	line-height: 26px;
+	font-family: 'PT Serif';
+	font-size: 20px;
+}
+.grid-container{
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 72px;
+}
+.col-wrapper{
+	width: 50%;
+}
+.col-icon{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-size: 100% 100%;
+}
+.col-title{
+	margin-top: 23px;
+	font-size: 11px;
+	font-weight: bold;
+
+}
+.col-text{
+	margin-top: 12px;
+	color: #656b6f;
+	font-size: 14px;
+	font-family: 'PT Serif';
+	letter-spacing: 0px;
+
+	
+}
+.icon-1{
+	background: url(img/col1.png) no-repeat;
+}
+.icon-2{
+	background: url(img/col2.png) no-repeat;
+}
+.icon-3{
+	background: url(img/col3.png) no-repeat;
+}
+.icon-4{
+	background: url(img/col4.png) no-repeat;
+}
